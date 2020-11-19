@@ -29,13 +29,33 @@
   "frameworks": {
     "netcoreapp3.1": {
       "dependencies": {
+        "DotNetSeleniumExtras.WaitHelpers": {
+          "target": "Package",
+          "version": "[3.11.0, )"
+        },
+        "MSTest.TestAdapter": {
+          "target": "Package",
+          "version": "[2.1.2, )"
+        },
+        "MSTest.TestFramework": {
+          "target": "Package",
+          "version": "[2.1.2, )"
+        },
         "Microsoft.NET.Test.Sdk": {
           "target": "Package",
           "version": "[16.4.0, )"
         },
+        "Microsoft.VisualStudio.QualityTools.UnitTestFramework": {
+          "target": "Package",
+          "version": "[11.0.50727.1, )"
+        },
         "NUnit3TestAdapter": {
           "target": "Package",
           "version": "[3.15.1, )"
+        },
+        "Selenium.WebDriver": {
+          "target": "Package",
+          "version": "[3.141.0, )"
         },
         "nunit": {
           "target": "Package",
